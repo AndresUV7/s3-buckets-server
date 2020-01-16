@@ -1,0 +1,13 @@
+package com.tests3.backend.s3rver;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class S3rverApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(S3rverApplication.class, args);
+	}
+
+}
